@@ -3,4 +3,11 @@ import os
 # DEBUG has to be to False in a production enrironment for security reasons
 DEBUG = True
 
+LOG_LEVEL = DEBUG
+LOG_FILE = "logs/app.log"
 
+TWITTER_API_KEY = "7yTSEytlv1F9558UnpE6A"
+TWITTER_SECRET_KEY = "GOI4AFmaY2tXfb4uECeasxVwitzbNUcYSJXd3MPMW6c"
+TWITTER_ACCESS_TOKEN = "32852699-HOwaZhWqgVX9186LXiktNFbFcCzU4a5TR8ZVYUk18"
+TWITTER_ACCESS_TOKEN_SECRET = "00O59YYxJi0surP0lkAtNNmcWqubdi7wes6aqUg4xZ529"
+TWITTER_TWEETS_LIMIT = 3

@@ -6,5 +6,4 @@ ENV STATIC_INDEX 0
 
 COPY ./app/requirements.txt /app
 RUN pip install -r requirements.txt
-
 COPY ./app /app
