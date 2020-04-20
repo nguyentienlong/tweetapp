@@ -11,7 +11,12 @@ docker-compose up web
 
 Or
 ```
- docker-compose up --build 
+docker-compose up --build
+```
+
+To remove old `tw33t` app if you see an error message `Cannot create container for service web: Conflict. The container name "/tw33t" is already in use`
+```
+docker rm tw33t
 ```
 
 Visit [http://localhost:8000/](http://localhost:8000/) for the app
@@ -35,7 +40,7 @@ Visit [http://localhost:8080](http://localhost:8080)
 
 
 ## To rebuild front end
-```angular2html
+```
 # from root dir of code base
 cd ./web
 yarn build
